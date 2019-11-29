@@ -26,9 +26,10 @@
     <!-- flaticon -->
     <link rel="stylesheet" href="css/flaticon.css">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- responsive Stylesheet -->
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
 
@@ -150,9 +151,15 @@
                             <a href="gallery.html">Галерея</a>
                         </li>
                         <li><a href="contact.html">Контакты</a></li>
+                        <li>
+                            <a href="#" class="lang-select"><img src="img/lng_eng.svg" alt="Eng"></a>
+                            <!-- <a href="#" class="lang-select"><img src="img/lng_ru.svg" alt="Ru"></a> -->
+                        </li>
+                        
                     </ul>
+                    
                 </div>
-                <div class="nav-right-content">
+                <!-- <div class="nav-right-content">
                     <ul class="nav-right-menu">
                         <li>
                             <div class="humberger-wrapper d-none d-lg-block">
@@ -172,7 +179,7 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </nav>
     </div>
@@ -597,6 +604,13 @@
 
     <!-- jquery -->
     <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- FancyBox -->
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- jQuery no conflict version -->
+    <script type="text/javascript">
+        var jQuery_3_4_1 = $.noConflict(true);             
+    </script>
     <!-- popper -->
     <script src="js/popper.min.js"></script>
     <!-- bootstrap -->
@@ -632,6 +646,7 @@
     <!-- main js -->
     <script src="js/script.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/common.js"></script>
 
     <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(56412184, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/56412184" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
     
