@@ -5,27 +5,95 @@
 
 // ≥1200px
 +media-breakpoint-down(lg)
+    .navbar-nav li
+        padding-right: 15px !important //переопределяем !important в шаблоне
+    .banner-area .banner-bg .banner-inner
+        left: 45%
+    .home-blog .blog-wrapper .portfolio-blog .blog-item .content
+        padding: 40px 0
 
 // ≥992px
 +media-breakpoint-down(md)
+    .navbar-area
+        .footer-logo,.logo
+            height: 100%
+            padding: 10px 0
+            img
+                max-width: 150px
+        .responsive-mobile-menu
+            .navbar-toggler
+                top: 15px
+    .navbar-nav li
+        padding-right: 15px !important //переопределяем !important в шаблоне
+    .banner-area .banner-bg .banner-inner
+        left: 40%
+    .banner-area .social-icon
+        top: 20%
+    
+    .tour-area
+        img
+            margin-top: 0
+    .home-blog .blog-wrapper .portfolio-blog .blog-item img.masonry-image
+        max-height: 600px
+        object-fit: cover
+        object-position: top
+
 
 // ≥768px
 +media-breakpoint-down(sm)
+    .navbar-area
+        .footer-logo,.logo
+            height: 100%
+            padding: 10px 0
+        .responsive-mobile-menu
+            .navbar-toggler
+                top: 15px
+    .navbar-nav li
+        padding-right: 15px !important //переопределяем !important в шаблоне
+    .banner-area .banner-bg .banner-inner
+        left: 50%
+    .home-blog .blog-wrapper .portfolio-blog .blog-item .content
+        padding: 20px 0
+        margin-bottom: 0 !important
+    
 
 // ≥576px
 +media-breakpoint-down(xs)
+    .home-rolling .rolling-content .rolling-title
+        font-size: 70px
+    
+    .home-blog .blog-wrapper .portfolio-blog .blog-item .content
+        padding: 20px 0
+        margin-bottom: 0 !important
+    .customer-area .quote-slider .single-item .content
+        display: block
+        padding-left: 20px
+        padding-top: 20px
+    .customer-area .quote-slider
+        background: none
+    .customer-area .quote-slider .slick-next
+        left: 10px
 
 
 /*==========  Mobile First  ==========*/
 
 // ≤576px
 +media-breakpoint-up(sm)
+    
 
 // ≤768px
 +media-breakpoint-up(md)
+    
 
 // ≤992px
 +media-breakpoint-up(lg)
+    // .navbar-nav li
+    //     padding-right: 15px !important //переопределяем !important в шаблоне
+    // .banner-area .banner-bg .banner-inner
+    //     left: 45%
+
 
 // ≤1200px
 +media-breakpoint-up(xl)
+    .banner-area .banner-bg .banner-inner
+        left: 30%
